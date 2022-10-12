@@ -1,0 +1,460 @@
+
+[32mPreparing composer.json for Varbase updates...(B[0m
+[32mUpdating Varbase...(B[0m
+composer/installers contains a Composer plugin which is currently not in your allow-plugins config. See https://getcomposer.org/allow-plugins
+Do you trust "composer/installers" to execute code and wish to enable it now? (writes "allow-plugins" to composer.json) [y,n,d,?] oomphinc/composer-installers-extender contains a Composer plugin which is currently not in your allow-plugins config. See https://getcomposer.org/allow-plugins
+Do you trust "oomphinc/composer-installers-extender" to execute code and wish to enable it now? (writes "allow-plugins" to composer.json) [y,n,d,?] cweagans/composer-patches contains a Composer plugin which is currently not in your allow-plugins config. See https://getcomposer.org/allow-plugins
+Do you trust "cweagans/composer-patches" to execute code and wish to enable it now? (writes "allow-plugins" to composer.json) [y,n,d,?] dealerdirect/phpcodesniffer-composer-installer contains a Composer plugin which is currently not in your allow-plugins config. See https://getcomposer.org/allow-plugins
+Do you trust "dealerdirect/phpcodesniffer-composer-installer" to execute code and wish to enable it now? (writes "allow-plugins" to composer.json) [y,n,d,?] drupal/core-composer-scaffold contains a Composer plugin which is currently not in your allow-plugins config. See https://getcomposer.org/allow-plugins
+Do you trust "drupal/core-composer-scaffold" to execute code and wish to enable it now? (writes "allow-plugins" to composer.json) [y,n,d,?] drupal/core-project-message contains a Composer plugin which is currently not in your allow-plugins config. See https://getcomposer.org/allow-plugins
+Do you trust "drupal/core-project-message" to execute code and wish to enable it now? (writes "allow-plugins" to composer.json) [y,n,d,?] vardot/varbase-updater contains a Composer plugin which is currently not in your allow-plugins config. See https://getcomposer.org/allow-plugins
+Do you trust "vardot/varbase-updater" to execute code and wish to enable it now? (writes "allow-plugins" to composer.json) [y,n,d,?] Loading composer repositories with package information
+Info from https://repo.packagist.org: #StandWithUkraine
+Updating dependencies
+Lock file operations: 3 installs, 113 updates, 0 removals
+  - Upgrading bower-asset/jquery (3.6.0 => 3.6.1)
+  - Upgrading chi-teck/drupal-code-generator (2.5.3 => 2.6.1)
+  - Upgrading composer/ca-bundle (1.3.3 => 1.3.4)
+  - Upgrading composer/composer (2.2.17 => 2.2.18)
+  - Upgrading composer/installers (v2.1.1 => v2.2.0)
+  - Upgrading consolidation/config (2.1.1 => 2.1.2)
+  - Upgrading consolidation/site-alias (3.1.5 => 3.1.6)
+  - Upgrading doctrine/collections (1.6.8 => 1.8.0)
+  - Locking doctrine/deprecations (v1.0.0)
+  - Upgrading drupal/admin_audit_trail (1.0.0 => 1.0.1)
+  - Upgrading drupal/admin_toolbar (3.1.1 => 3.2.1)
+  - Upgrading drupal/better_exposed_filters (5.2.0 => 6.0.1)
+  - Upgrading drupal/better_normalizers (1.0.0-beta4 => 1.0.0-beta5)
+  - Upgrading drupal/bootstrap_barrio (5.1.6 => 5.1.7)
+  - Upgrading drupal/captcha (1.4.0 => 1.5.0)
+  - Upgrading drupal/charts (5.0.1 => 5.0.3)
+  - Locking drupal/ckeditor (1.0.1)
+  - Upgrading drupal/coder (8.3.15 => 8.3.16)
+  - Upgrading drupal/consumers (1.13.0 => 1.14.0)
+  - Upgrading drupal/core (9.4.5 => 9.4.8)
+  - Upgrading drupal/core-composer-scaffold (9.4.5 => 9.4.8)
+  - Upgrading drupal/core-dev (9.4.5 => 9.4.8)
+  - Upgrading drupal/core-project-message (9.4.5 => 9.4.8)
+  - Upgrading drupal/crop (2.2.0 => 2.3.0)
+  - Upgrading drupal/devel (4.1.5 => 5.0.2)
+  - Upgrading drupal/diff (1.0.0 => 1.1.0)
+  - Upgrading drupal/dropzonejs (2.6.0 => 2.7.0)
+  - Upgrading drupal/dropzonejs_eb_widget (2.6.0 => 2.7.0)
+  - Upgrading drupal/ds (3.13.0 => 3.15.0)
+  - Upgrading drupal/ds_extras (3.13.0 => 3.15.0)
+  - Upgrading drupal/email_registration (1.1.0 => 1.2.0)
+  - Upgrading drupal/embed (1.5.0 => 1.6.0)
+  - Upgrading drupal/entity (1.3.0 => 1.4.0)
+  - Upgrading drupal/entity_block (1.0.0 => 1.1.0)
+  - Upgrading drupal/entity_browser_generic_embed (9.0.13 => 9.0.14)
+  - Upgrading drupal/entity_clone (1.0.0-beta6 => 1.0.0-beta7)
+  - Upgrading drupal/entity_reference_revisions (1.9.0 => 1.10.0)
+  - Upgrading drupal/entity_usage (2.0.0-beta6 => 2.0.0-beta7)
+  - Upgrading drupal/field_group (3.2.0 => 3.3.0)
+  - Upgrading drupal/file_mdm (2.4.0 => 2.5.0)
+  - Upgrading drupal/flood_control (2.2.3 => 2.2.4)
+  - Locking drupal/hal (1.0.3)
+  - Upgrading drupal/honeypot (2.1.1 => 2.1.2)
+  - Upgrading drupal/imagemagick (3.3.0 => 3.4.0)
+  - Upgrading drupal/inline_entity_form (1.0.0-rc12 => 1.0.0-rc14)
+  - Upgrading drupal/jquery_ui_touch_punch (1.0.1 => 1.1.0)
+  - Upgrading drupal/layout_builder_at (2.12.0 => 2.13.0)
+  - Upgrading drupal/layout_builder_restrictions (2.15.0 => 2.16.0)
+  - Upgrading drupal/login_destination (2.0.0-beta1 => 2.0.0-beta5)
+  - Upgrading drupal/masquerade (2.0.0-beta4 => 2.0.0-rc1)
+  - Upgrading drupal/media_entity_twitter (2.7.0 => 2.8.0)
+  - Upgrading drupal/media_revisions_ui (2.0.0 => 2.1.0)
+  - Upgrading drupal/menu_admin_per_menu (1.4.0 => 1.5.0)
+  - Upgrading drupal/metatag (1.21.0 => 1.22.0)
+  - Upgrading drupal/password_policy (3.1.0 => 3.2.0)
+  - Upgrading drupal/recaptcha (3.0.0 => 3.1.0)
+  - Upgrading drupal/redirect (1.7.0 => 1.8.0)
+  - Upgrading drupal/search_api (1.25.0 => 1.26.0)
+  - Upgrading drupal/shield (1.6.0 => 1.7.0)
+  - Upgrading drupal/simple_sitemap (4.1.2 => 4.1.3)
+  - Upgrading drupal/social_auth_facebook (3.0.0 => 3.0.1)
+  - Upgrading drupal/social_auth_google (3.0.0-rc1 => 3.0.0)
+  - Upgrading drupal/social_auth_linkedin (3.0.1 => 3.1.0)
+  - Upgrading drupal/sophron (1.2.0 => 1.3.0)
+  - Upgrading drupal/varbase_core (9.0.27 => 9.0.33)
+  - Upgrading drupal/varbase_layout_builder (10.0.19 => 10.0.20)
+  - Upgrading drupal/varbase_media (9.0.13 => 9.0.14)
+  - Upgrading drupal/varbase_seo (9.0.5 => 9.0.6)
+  - Upgrading drupal/vartheme_bs4 (9.0.16 => 9.0.17)
+  - Upgrading drupal/views_bulk_edit (2.6.0 => 2.7.0)
+  - Upgrading drupal/views_bulk_operations (4.1.4 => 4.2.0)
+  - Upgrading drupal/views_infinite_scroll (2.0.0 => 2.0.1)
+  - Upgrading drupal/viewsreference (2.0.0-beta3 => 2.0.0-beta4)
+  - Upgrading drupal/webform_views (5.0.0-beta1 => 5.0.0)
+  - Upgrading drush/drush (11.1.1 => 11.2.1)
+  - Upgrading ezyang/htmlpurifier (v4.14.0 => v4.16.0)
+  - Upgrading fileeye/mimemap (1.2.2 => 2.0.0)
+  - Upgrading guzzlehttp/guzzle (7.4.5 => 7.5.0)
+  - Upgrading guzzlehttp/promises (1.5.1 => 1.5.2)
+  - Upgrading guzzlehttp/psr7 (2.4.0 => 2.4.1)
+  - Upgrading instaclick/php-webdriver (1.4.14 => 1.4.15)
+  - Upgrading laminas/laminas-diactoros (2.14.0 => 2.19.0)
+  - Upgrading laminas/laminas-escaper (2.10.0 => 2.12.0)
+  - Upgrading laminas/laminas-servicemanager (3.16.0 => 3.19.0)
+  - Upgrading laminas/laminas-stdlib (3.11.0 => 3.15.0)
+  - Upgrading league/uri (6.7.1 => 6.7.2)
+  - Upgrading masterminds/html5 (2.7.5 => 2.7.6)
+  - Upgrading neilime/php-css-lint (v3.1.1 => v3.1.3)
+  - Upgrading nikic/php-parser (v4.14.0 => v4.15.1)
+  - Upgrading npm-asset/ace-builds (1.9.3 => 1.11.2)
+  - Upgrading phpstan/phpdoc-parser (1.7.0 => 1.8.0)
+  - Upgrading phpunit/php-code-coverage (9.2.15 => 9.2.17)
+  - Upgrading phpunit/phpunit (9.5.21 => 9.5.25)
+  - Upgrading sebastian/comparator (4.0.6 => 4.0.8)
+  - Upgrading sebastian/exporter (4.0.4 => 4.0.5)
+  - Upgrading sebastian/type (3.0.0 => 3.2.0)
+  - Upgrading seld/phar-utils (1.2.0 => 1.2.1)
+  - Upgrading sirbrillig/phpcs-variable-analysis (v2.11.4 => v2.11.9)
+  - Upgrading slevomat/coding-standard (7.2.1 => 8.5.2)
+  - Upgrading stella-maris/clock (0.1.5 => 0.1.6)
+  - Upgrading symfony/console (v4.4.44 => v4.4.47)
+  - Upgrading symfony/dom-crawler (v4.4.44 => v4.4.45)
+  - Upgrading symfony/http-foundation (v4.4.44 => v4.4.47)
+  - Upgrading symfony/http-kernel (v4.4.44 => v4.4.47)
+  - Upgrading symfony/lock (v4.4.40 => v4.4.46)
+  - Upgrading symfony/mime (v5.4.11 => v5.4.13)
+  - Upgrading symfony/phpunit-bridge (v5.4.11 => v5.4.14)
+  - Upgrading symfony/psr-http-message-bridge (v2.1.2 => v2.1.3)
+  - Upgrading symfony/serializer (v4.4.44 => v4.4.47)
+  - Upgrading symfony/string (v6.0.11 => v6.0.14)
+  - Upgrading symfony/translation (v4.4.44 => v4.4.47)
+  - Upgrading symfony/validator (v4.4.44 => v4.4.47)
+  - Upgrading symfony/var-dumper (v5.4.11 => v5.4.14)
+  - Upgrading symfony/yaml (v4.4.44 => v4.4.45)
+  - Upgrading tijsverkoyen/css-to-inline-styles (2.2.4 => 2.2.5)
+  - Upgrading twig/twig (v2.15.1 => v2.15.3)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 4 installs, 113 updates, 0 removals
+  - Downloading symfony/mime (v5.4.13)
+  - Downloading symfony/http-foundation (v4.4.47)
+  - Downloading symfony/var-dumper (v5.4.14)
+  - Downloading symfony/http-kernel (v4.4.47)
+  - Downloading composer/ca-bundle (1.3.4)
+  - Downloading symfony/console (v4.4.47)
+  - Downloading doctrine/collections (1.8.0)
+  - Downloading npm-asset/ace-builds (1.11.2)
+  - Downloading twig/twig (v2.15.3)
+  - Downloading symfony/validator (v4.4.47)
+  - Downloading symfony/translation (v4.4.47)
+  - Downloading symfony/serializer (v4.4.47)
+  - Downloading laminas/laminas-stdlib (3.15.0)
+  - Downloading laminas/laminas-servicemanager (3.19.0)
+  - Downloading laminas/laminas-escaper (2.12.0)
+  - Downloading laminas/laminas-diactoros (2.19.0)
+  - Downloading drupal/core (9.4.8)
+  - Downloading drupal/admin_audit_trail (1.0.1)
+  - Downloading drupal/admin_toolbar (3.2.1)
+  - Downloading drupal/ckeditor (1.0.1)
+  - Downloading drupal/jquery_ui_touch_punch (1.1.0)
+  - Downloading drupal/better_exposed_filters (6.0.1)
+  - Downloading drupal/hal (1.0.3)
+  - Downloading drupal/better_normalizers (1.0.0-beta5)
+  - Downloading drupal/layout_builder_restrictions (2.16.0)
+  - Downloading drupal/charts (5.0.3)
+  - Downloading symfony/phpunit-bridge (v5.4.14)
+  - Downloading symfony/lock (v4.4.46)
+  - Downloading sebastian/type (3.2.0)
+  - Downloading sebastian/exporter (4.0.5)
+  - Downloading sebastian/comparator (4.0.8)
+  - Downloading phpunit/phpunit (9.5.25)
+  - Downloading phpstan/phpdoc-parser (1.8.0)
+  - Downloading slevomat/coding-standard (8.5.2)
+  - Downloading sirbrillig/phpcs-variable-analysis (v2.11.9)
+  - Syncing drupal/coder (8.3.16) into cache
+  - Downloading drupal/devel (5.0.2)
+  - Downloading ezyang/htmlpurifier (v4.16.0)
+  - Downloading drupal/diff (1.1.0)
+  - Downloading drupal/dropzonejs (2.7.0)
+  - Downloading drupal/inline_entity_form (1.0.0-rc14)
+  - Downloading drupal/views_infinite_scroll (2.0.1)
+  - Downloading drupal/views_bulk_operations (4.2.0)
+  - Downloading drupal/views_bulk_edit (2.7.0)
+  - Downloading drupal/metatag (1.22.0)
+  - Downloading drupal/media_revisions_ui (2.1.0)
+  - Downloading drupal/media_entity_twitter (2.8.0)
+  - Downloading fileeye/mimemap (2.0.0)
+  - Downloading drupal/sophron (1.3.0)
+  - Downloading drupal/file_mdm (2.5.0)
+  - Downloading drupal/imagemagick (3.4.0)
+  - Downloading drupal/crop (2.3.0)
+  - Downloading drupal/ds (3.15.0)
+  - Downloading drupal/varbase_media (9.0.14)
+  - Downloading drupal/entity_clone (1.0.0-beta7)
+  - Downloading drupal/entity_usage (2.0.0-beta7)
+  - Downloading drupal/flood_control (2.2.4)
+  - Downloading drupal/honeypot (2.1.2)
+  - Downloading drupal/layout_builder_at (2.13.0)
+  - Downloading neilime/php-css-lint (v3.1.3)
+  - Downloading drupal/login_destination (2.0.0-beta5)
+  - Downloading drupal/password_policy (3.2.0)
+  - Downloading drupal/captcha (1.5.0)
+  - Downloading drupal/recaptcha (3.1.0)
+  - Downloading drupal/search_api (1.26.0)
+  - Downloading league/uri (6.7.2)
+  - Downloading stella-maris/clock (0.1.6)
+  - Downloading drupal/consumers (1.14.0)
+  - Downloading drupal/simple_sitemap (4.1.3)
+  - Downloading drupal/social_auth_facebook (3.0.1)
+  - Downloading tijsverkoyen/css-to-inline-styles (2.2.5)
+  - Downloading symfony/string (v6.0.14)
+  - Downloading chi-teck/drupal-code-generator (2.6.1)
+  - Downloading drupal/viewsreference (2.0.0-beta4)
+  - Downloading drupal/field_group (3.3.0)
+  - Downloading drupal/webform_views (5.0.0)
+  - Downloading consolidation/config (2.1.2)
+  - Downloading consolidation/site-alias (3.1.6)
+  - Downloading drush/drush (11.2.1)
+  - Downloading drupal/varbase_layout_builder (10.0.20)
+  - Downloading drupal/varbase_core (9.0.33)
+  0/80 [>---------------------------]   0%
+  2/80 [>---------------------------]   2%
+  5/80 [=>--------------------------]   6%
+  8/80 [==>-------------------------]  10%
+  9/80 [===>------------------------]  11%
+ 15/80 [=====>----------------------]  18%
+ 16/80 [=====>----------------------]  20%
+ 24/80 [========>-------------------]  30%
+ 29/80 [==========>-----------------]  36%
+ 33/80 [===========>----------------]  41%
+ 40/80 [==============>-------------]  50%
+ 53/80 [==================>---------]  66%
+ 56/80 [===================>--------]  70%
+ 64/80 [======================>-----]  80%
+ 67/80 [=======================>----]  83%
+ 72/80 [=========================>--]  90%
+ 77/80 [==========================>-]  96%
+ 79/80 [===========================>]  98%
+ 80/80 [============================] 100%
+  - Upgrading composer/installers (v2.1.1 => v2.2.0): Extracting archive
+  - Upgrading drupal/core-project-message (9.4.5 => 9.4.8): Extracting archive
+  - Installing cweagans/composer-patches (1.7.2): Extracting archive
+Gathering patches for root package.
+  - Upgrading drupal/core-composer-scaffold (9.4.5 => 9.4.8): Extracting archive
+No patches supplied.
+Gathering patches for dependencies. This might take a minute.
+  - Upgrading symfony/mime (v5.4.11 => v5.4.13): Extracting archive
+  - Upgrading symfony/http-foundation (v4.4.44 => v4.4.47): Extracting archive
+  - Upgrading symfony/var-dumper (v5.4.11 => v5.4.14): Extracting archive
+  - Upgrading symfony/http-kernel (v4.4.44 => v4.4.47): Extracting archive
+  - Upgrading bower-asset/jquery (3.6.0 => 3.6.1): Extracting archive
+  - Upgrading composer/ca-bundle (1.3.3 => 1.3.4): Extracting archive
+  - Upgrading symfony/console (v4.4.44 => v4.4.47): Extracting archive
+  - Installing doctrine/deprecations (v1.0.0): Extracting archive
+  - Upgrading doctrine/collections (1.6.8 => 1.8.0): Extracting archive
+  - Upgrading npm-asset/ace-builds (1.9.3 => 1.11.2): Extracting archive
+  - Upgrading twig/twig (v2.15.1 => v2.15.3): Extracting archive
+  - Upgrading symfony/yaml (v4.4.44 => v4.4.45): Extracting archive
+  - Upgrading symfony/validator (v4.4.44 => v4.4.47): Extracting archive
+  - Upgrading symfony/translation (v4.4.44 => v4.4.47): Extracting archive
+  - Upgrading symfony/serializer (v4.4.44 => v4.4.47): Extracting archive
+  - Upgrading symfony/psr-http-message-bridge (v2.1.2 => v2.1.3): Extracting archive
+  - Upgrading masterminds/html5 (2.7.5 => 2.7.6): Extracting archive
+  - Upgrading laminas/laminas-stdlib (3.11.0 => 3.15.0): Extracting archive
+  - Upgrading laminas/laminas-servicemanager (3.16.0 => 3.19.0): Extracting archive
+  - Upgrading laminas/laminas-escaper (2.10.0 => 2.12.0): Extracting archive
+  - Upgrading laminas/laminas-diactoros (2.14.0 => 2.19.0): Extracting archive
+  - Upgrading guzzlehttp/psr7 (2.4.0 => 2.4.1): Extracting archive
+  - Upgrading guzzlehttp/promises (1.5.1 => 1.5.2): Extracting archive
+  - Upgrading guzzlehttp/guzzle (7.4.5 => 7.5.0): Extracting archive
+  - Upgrading drupal/core (9.4.5 => 9.4.8): Extracting archive
+  - Upgrading drupal/admin_audit_trail (1.0.0 => 1.0.1): Extracting archive
+  - Upgrading drupal/admin_toolbar (3.1.1 => 3.2.1): Extracting archive
+  - Installing drupal/ckeditor (1.0.1): Extracting archive
+  - Upgrading drupal/jquery_ui_touch_punch (1.0.1 => 1.1.0): Extracting archive
+  - Upgrading drupal/better_exposed_filters (5.2.0 => 6.0.1): Extracting archive
+  - Installing drupal/hal (1.0.3): Extracting archive
+  - Upgrading drupal/better_normalizers (1.0.0-beta4 => 1.0.0-beta5): Extracting archive
+  - Upgrading drupal/layout_builder_restrictions (2.15.0 => 2.16.0): Extracting archive
+  - Upgrading drupal/bootstrap_barrio (5.1.6 => 5.1.7): Extracting archive
+  - Upgrading drupal/charts (5.0.1 => 5.0.3): Extracting archive
+  - Upgrading symfony/phpunit-bridge (v5.4.11 => v5.4.14): Extracting archive
+  - Upgrading symfony/lock (v4.4.40 => v4.4.46): Extracting archive
+  - Upgrading symfony/dom-crawler (v4.4.44 => v4.4.45): Extracting archive
+  - Upgrading sebastian/type (3.0.0 => 3.2.0): Extracting archive
+  - Upgrading sebastian/exporter (4.0.4 => 4.0.5): Extracting archive
+  - Upgrading sebastian/comparator (4.0.6 => 4.0.8): Extracting archive
+  - Upgrading nikic/php-parser (v4.14.0 => v4.15.1): Extracting archive
+  - Upgrading phpunit/php-code-coverage (9.2.15 => 9.2.17): Extracting archive
+  - Upgrading phpunit/phpunit (9.5.21 => 9.5.25): Extracting archive
+  - Upgrading instaclick/php-webdriver (1.4.14 => 1.4.15): Extracting archive
+  - Upgrading phpstan/phpdoc-parser (1.7.0 => 1.8.0): Extracting archive
+  - Upgrading slevomat/coding-standard (7.2.1 => 8.5.2): Extracting archive
+  - Upgrading sirbrillig/phpcs-variable-analysis (v2.11.4 => v2.11.9): Extracting archive
+  - Upgrading drupal/coder (8.3.15 => 8.3.16): Checking out d6f6112e5e from cache
+  - Upgrading seld/phar-utils (1.2.0 => 1.2.1): Extracting archive
+  - Upgrading composer/composer (2.2.17 => 2.2.18): Extracting archive
+  - Upgrading drupal/core-dev (9.4.5 => 9.4.8)
+  - Upgrading drupal/devel (4.1.5 => 5.0.2): Extracting archive
+  - Upgrading ezyang/htmlpurifier (v4.14.0 => v4.16.0): Extracting archive
+  - Upgrading drupal/diff (1.0.0 => 1.1.0): Extracting archive
+  - Upgrading drupal/dropzonejs (2.6.0 => 2.7.0): Extracting archive
+  - Upgrading drupal/dropzonejs_eb_widget (2.6.0 => 2.7.0)
+  - Upgrading drupal/email_registration (1.1.0 => 1.2.0): Extracting archive
+  - Upgrading drupal/entity (1.3.0 => 1.4.0): Extracting archive
+  - Upgrading drupal/entity_block (1.0.0 => 1.1.0): Extracting archive
+  - Upgrading drupal/inline_entity_form (1.0.0-rc12 => 1.0.0-rc14): Extracting archive
+  - Upgrading drupal/views_infinite_scroll (2.0.0 => 2.0.1): Extracting archive
+  - Upgrading drupal/views_bulk_operations (4.1.4 => 4.2.0): Extracting archive
+  - Upgrading drupal/views_bulk_edit (2.6.0 => 2.7.0): Extracting archive
+  - Upgrading drupal/metatag (1.21.0 => 1.22.0): Extracting archive
+  - Upgrading drupal/media_revisions_ui (2.0.0 => 2.1.0): Extracting archive
+  - Upgrading drupal/media_entity_twitter (2.7.0 => 2.8.0): Extracting archive
+  - Upgrading fileeye/mimemap (1.2.2 => 2.0.0): Extracting archive
+  - Upgrading drupal/sophron (1.2.0 => 1.3.0): Extracting archive
+  - Upgrading drupal/file_mdm (2.4.0 => 2.5.0): Extracting archive
+  - Upgrading drupal/imagemagick (3.3.0 => 3.4.0): Extracting archive
+  - Upgrading drupal/crop (2.2.0 => 2.3.0): Extracting archive
+  - Upgrading drupal/embed (1.5.0 => 1.6.0): Extracting archive
+  - Upgrading drupal/entity_browser_generic_embed (9.0.13 => 9.0.14)
+  - Upgrading drupal/ds (3.13.0 => 3.15.0): Extracting archive
+  - Upgrading drupal/ds_extras (3.13.0 => 3.15.0)
+  - Upgrading drupal/varbase_media (9.0.13 => 9.0.14): Extracting archive
+  - Upgrading drupal/entity_clone (1.0.0-beta6 => 1.0.0-beta7): Extracting archive
+  - Upgrading drupal/entity_reference_revisions (1.9.0 => 1.10.0): Extracting archive
+  - Upgrading drupal/entity_usage (2.0.0-beta6 => 2.0.0-beta7): Extracting archive
+  - Upgrading drupal/flood_control (2.2.3 => 2.2.4): Extracting archive
+  - Upgrading drupal/honeypot (2.1.1 => 2.1.2): Extracting archive
+  - Upgrading drupal/layout_builder_at (2.12.0 => 2.13.0): Extracting archive
+  - Upgrading neilime/php-css-lint (v3.1.1 => v3.1.3): Extracting archive
+  - Upgrading drupal/login_destination (2.0.0-beta1 => 2.0.0-beta5): Extracting archive
+  - Upgrading drupal/masquerade (2.0.0-beta4 => 2.0.0-rc1): Extracting archive
+  - Upgrading drupal/menu_admin_per_menu (1.4.0 => 1.5.0): Extracting archive
+  - Upgrading drupal/password_policy (3.1.0 => 3.2.0): Extracting archive
+  - Upgrading drupal/captcha (1.4.0 => 1.5.0): Extracting archive
+  - Upgrading drupal/recaptcha (3.0.0 => 3.1.0): Extracting archive
+  - Upgrading drupal/redirect (1.7.0 => 1.8.0): Extracting archive
+  - Upgrading drupal/search_api (1.25.0 => 1.26.0): Extracting archive
+  - Upgrading drupal/shield (1.6.0 => 1.7.0): Extracting archive
+  - Upgrading league/uri (6.7.1 => 6.7.2): Extracting archive
+  - Upgrading stella-maris/clock (0.1.5 => 0.1.6): Extracting archive
+  - Upgrading drupal/consumers (1.13.0 => 1.14.0): Extracting archive
+  - Upgrading drupal/simple_sitemap (4.1.2 => 4.1.3): Extracting archive
+  - Upgrading drupal/social_auth_facebook (3.0.0 => 3.0.1): Extracting archive
+  - Upgrading drupal/social_auth_google (3.0.0-rc1 => 3.0.0): Extracting archive
+  - Upgrading drupal/social_auth_linkedin (3.0.1 => 3.1.0): Extracting archive
+  - Upgrading tijsverkoyen/css-to-inline-styles (2.2.4 => 2.2.5): Extracting archive
+  - Upgrading symfony/string (v6.0.11 => v6.0.14): Extracting archive
+  - Upgrading chi-teck/drupal-code-generator (2.5.3 => 2.6.1): Extracting archive
+  - Upgrading drupal/viewsreference (2.0.0-beta3 => 2.0.0-beta4): Extracting archive
+  - Upgrading drupal/field_group (3.2.0 => 3.3.0): Extracting archive
+  - Upgrading drupal/webform_views (5.0.0-beta1 => 5.0.0): Extracting archive
+  - Upgrading consolidation/config (2.1.1 => 2.1.2): Extracting archive
+  - Upgrading consolidation/site-alias (3.1.5 => 3.1.6): Extracting archive
+  - Upgrading drush/drush (11.1.1 => 11.2.1): Extracting archive
+  - Upgrading drupal/vartheme_bs4 (9.0.16 => 9.0.17): Extracting archive
+  - Upgrading drupal/varbase_seo (9.0.5 => 9.0.6): Extracting archive
+  - Upgrading drupal/varbase_layout_builder (10.0.19 => 10.0.20): Extracting archive
+  - Upgrading drupal/varbase_core (9.0.27 => 9.0.33): Extracting archive
+   0/108 [>---------------------------]   0%
+   9/108 [==>-------------------------]   8%
+  11/108 [==>-------------------------]  10%
+  27/108 [=======>--------------------]  25%
+  30/108 [=======>--------------------]  27%
+  36/108 [=========>------------------]  33%
+  46/108 [===========>----------------]  42%
+  55/108 [==============>-------------]  50%
+  56/108 [==============>-------------]  51%
+  60/108 [===============>------------]  55%
+  66/108 [=================>----------]  61%
+  69/108 [=================>----------]  63%
+  75/108 [===================>--------]  69%
+  76/108 [===================>--------]  70%
+  83/108 [=====================>------]  76%
+  89/108 [=======================>----]  82%
+  96/108 [========================>---]  88%
+  99/108 [=========================>--]  91%
+ 101/108 [==========================>-]  93%
+ 104/108 [==========================>-]  96%
+ 107/108 [===========================>]  99%
+ 108/108 [============================] 100%
+  - Applying patches for drupal/core
+    https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch (Issue #2869592: Disabled update module shouldn't produce a status report warning)
+    https://www.drupal.org/files/issues/2018-12-10/core--getDerivatives-Invalid-argument-foreach--2893892-11-d8.patch (Issue #2893892: Fixed Warning Invalid argument supplied for foreach() in Drupal)
+    https://www.drupal.org/files/issues/2019-03-31/3044656-2.patch (Issue #3044656: Add a helper method to strip subdirectories from URL paths)
+    https://www.drupal.org/files/issues/2019-12-19/3101231-19.patch (Issue #3101231: Fix multilingual site's layout edit context issue with TypeError: Argument 1 passed to UrlHelper::buildQuery() must be of the type array, null given)
+    https://www.drupal.org/files/issues/2020-01-20/2985882-53.patch (Issue #2985882: Fix Error: Call to a member function getLabel() after enabling layout_builder)
+    https://www.drupal.org/files/issues/2021-04-29/2741877-77.patch (Issue #2741877: Nested modals don't work: opening a modal from a modal closes the original)
+    https://www.drupal.org/files/issues/2020-08-16/3165435-2.patch (Issue #3165435: Fix tour <front> route as route name when a selected node had been set as the front page for the site)
+    https://www.drupal.org/files/issues/2021-08-04/media_required_validation-3226791-2.patch (Issue #3226791: Fix Validation error saving untranslatable Media reference field)
+    https://www.drupal.org/files/issues/2020-11-16/3059955-107.patch (Issue #3059955: It is possible to overflow the number of items allowed in Media Library)
+    https://www.drupal.org/files/issues/2021-10-29/3053881-60.patch (Issue #3053881: Reverting entity revisions that contain custom blocks erroneously triggers EntityChangedConstraint)
+    https://git.drupalcode.org/project/drupal/-/merge_requests/2033.diff (Issue #3272720: Fix PHP8.1 Deprecated function: hash(): Passing null to parameter #2 ($data) of type string is deprecated in generateFieldTableName)
+
+  - Applying patches for drupal/inline_entity_form
+    https://www.drupal.org/files/issues/2021-05-03/optional_edit-3143422-10.patch (Issue #3143422: Allow to hide the Edit button in Complex widget)
+    https://www.drupal.org/files/issues/2021-04-13/inline_entity_form-order-by-weight-inline-entities-3136514-02.patch (Issue #3136514: IEF complex widget: Re-ordering / weight sometimes not updated)
+
+  - Applying patches for drupal/redirect
+    https://www.drupal.org/files/issues/2022-08-31/2879648-142.patch (Issue #2879648: Redirects from aliased paths aren't triggered)
+    https://www.drupal.org/files/issues/2022-08-31/3057250-52.patch (Issue #3057250: Validation issue on adding url redirect)
+
+Package doctrine/reflection is abandoned, you should avoid using it. Use roave/better-reflection instead.
+Package swiftmailer/swiftmailer is abandoned, you should avoid using it. Use symfony/mailer instead.
+Package symfony/debug is abandoned, you should avoid using it. Use symfony/error-handler instead.
+Package webmozart/path-util is abandoned, you should avoid using it. Use symfony/filesystem instead.
+Generating autoload files
+101 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+Scaffolding files for drupal/core:
+  - Copy [web-root]/.htaccess from assets/scaffold/files/htaccess
+  - Copy [web-root]/sites/development.services.yml from assets/scaffold/files/development.services.yml
+  - Skip [web-root]/sites/default/default.services.yml: overridden in vardot/varbase-project
+Scaffolding files for vardot/varbase-project:
+  - Skip [web-root]/sites/default/default.services.yml because it already exists and overwrite is false.
+> Varbase\composer\ScriptHandler::postDrupalScaffoldProcedure
+> Varbase\composer\ScriptHandler::createRequiredFiles
+> Varbase\composer\ScriptHandler::removeGitDirectories
+No security vulnerability advisories found
+ [success] Cache rebuild complete.
+[32mEnabling new required modules for the latest Varbase version...(B[0m
+[32mUpdating the database for latest changes.(B[0m
+ -------------------- ----------------------------- --------------- ---------------------------------------- 
+  Module               Update ID                     Type            Description                             
+ -------------------- ----------------------------- --------------- ---------------------------------------- 
+  captcha              8902                          hook_update_n   8902 - Implements hook_update_N().      
+  consumers            8108                          hook_update_n   8108 - Add field 'client_id'.           
+  consumers            8109                          hook_update_n   8109 - Set uuid as client_id for        
+                                                                     existing consumers.                     
+  password_policy      8304                          hook_update_n   8304 - Remove duplicate rows in the     
+                                                                     password_policy_history table.          
+  charts               clear_library_config_key_ad   post-update     Clear library_config set on the wrong   
+                       ded_on_wrong_place                            place. See drupal.orgi3310145.          
+  charts               initialize_debug_option       post-update     Initialize the config value for the     
+                                                                     debug setting.                          
+  charts               migrate_library_default_set   post-update     Migrate library default settings to     
+                       tings_to_library_config                       library_config key.                     
+  email_registration   require_username_on_registr   post-update     Add an option to allow the username on  
+                       ation                                         registration form.                      
+  entity_usage         regenerate_2x                 post-update     Implements hook_post_update_NAME().     
+                                                                     Re-generate entity_usage statistics.    
+ -------------------- ----------------------------- --------------- ---------------------------------------- 
+
+
+ // Do you wish to run the specified pending updates?: yes.                                                    
+
+>  [notice] Update started: consumers_update_8108
+>  [notice] Update completed: consumers_update_8108
+>  [notice] Update started: captcha_update_8902
+>  [notice] Update completed: captcha_update_8902
+>  [notice] Update started: consumers_update_8109
+>  [notice] Update completed: consumers_update_8109
+>  [notice] Update started: password_policy_update_8304
+>  [notice] Update completed: password_policy_update_8304
+>  [notice] Update started: charts_post_update_clear_library_config_key_added_on_wrong_place
+>  [notice] Update completed: charts_post_update_clear_library_config_key_added_on_wrong_place
+>  [notice] Update started: charts_post_update_initialize_debug_option
+>  [notice] Update completed: charts_post_update_initialize_debug_option
+>  [notice] Update started: charts_post_update_migrate_library_default_settings_to_library_config
+>  [notice] Update completed: charts_post_update_migrate_library_default_settings_to_library_config
+>  [notice] Update started: email_registration_post_update_require_username_on_registration
+>  [notice] Update completed: email_registration_post_update_require_username_on_registration
+>  [notice] Update started: entity_usage_post_update_regenerate_2x
+>  [notice] Update completed: entity_usage_post_update_regenerate_2x
+ [success] Finished performing updates.
+[32mHoya! Updates are now done. We will add a link in the near future for here to link to common issues appearing after updates and how to fix them.(B[0m

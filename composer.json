@@ -1,0 +1,230 @@
+{
+    "name": "vardot/varbase-project",
+    "version": "1.0.0+no-version-set",
+    "version_normalized": "1.0.0.0",
+    "require": {
+        "composer/installers": "~2.0",
+        "cweagans/composer-patches": "~1.0",
+        "drupal/backup_migrate": "^5.0",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-project-message": "^9",
+        "oomphinc/composer-installers-extender": "~2.0",
+        "vardot/varbase": "~9.0",
+        "vardot/varbase-updater": "^2.0",
+        "webflo/drupal-finder": "~1.0",
+        "drupal/pwa": "^1.5"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "require-dev": {
+        "drupal/core-dev": "~9.0",
+        "drush/drush": "~11.0"
+    },
+    "type": "project",
+    "extra": {
+        "branch-alias": {
+            "dev-9.0.x": "9.0.x-dev"
+        },
+        "drupal-core-project-message": {
+            "include-keys": [
+                "homepage",
+                "support"
+            ],
+            "post-create-project-cmd-message": [
+                "<bg=blue;fg=white>                                                         </>",
+                "<bg=blue;fg=white>  Congratulations, you’ve installed the Varbase codebase </>",
+                "<bg=blue;fg=white>  from the vardot/varbase-project template!              </>",
+                "<bg=blue;fg=white>                                                         </>",
+                "",
+                "<bg=yellow;fg=black>Next steps</>:",
+                "  * Install the site: https://www.drupal.org/docs/installing-drupal",
+                "  * Read the user guide: https://docs.varbase.vardot.com",
+                "  * Get support: https://www.vardot.com/en/form/get-support-varbase",
+                "  * Join Our Slack Team for Feedback and Support:",
+                "      http://slack.varbase.vardot.com",
+                "  * Remove the plugin that prints this message:",
+                "      composer remove drupal/core-project-message"
+            ]
+        },
+        "drupal-scaffold": {
+            "allowed-packages": [
+                "drupal/core",
+                "vardot/varbase"
+            ],
+            "gitignore": true,
+            "locations": {
+                "web-root": "./docroot"
+            },
+            "file-mapping": {
+                "[web-root]/sites/default/default.services.yml": {
+                    "mode": "replace",
+                    "overwrite": false,
+                    "path": "docroot/core/assets/scaffold/files/default.services.yml"
+                },
+                "[web-root]/sites/default/default.settings.php": {
+                    "mode": "replace",
+                    "overwrite": false,
+                    "path": "docroot/core/assets/scaffold/files/default.settings.php"
+                },
+                "[web-root]/robots.txt": {
+                    "append": "docroot/profiles/varbase/src/assets/varbase-robots-additions.txt"
+                }
+            }
+        },
+        "installer-paths": {
+            "docroot/core": [
+                "type:drupal-core"
+            ],
+            "docroot/profiles/{$name}": [
+                "type:drupal-profile"
+            ],
+            "docroot/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "docroot/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "docroot/libraries/slick": [
+                "npm-asset/slick-carousel"
+            ],
+            "docroot/libraries/ace": [
+                "npm-asset/ace-builds"
+            ],
+            "docroot/libraries/jquery-ui-touch-punch": [
+                "bower-asset/jqueryui-touch-punch"
+            ],
+            "docroot/libraries/swagger-ui/dist": [
+                "npm-asset/swagger-ui-dist"
+            ],
+            "docroot/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
+            ],
+            "docroot/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "docroot/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ],
+            "drush/contrib/{$name}": [
+                "type:drupal-drush"
+            ]
+        },
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
+        "drupal-libraries": {
+            "library-directory": "docroot/libraries",
+            "libraries": [
+                {
+                    "name": "objectfitpolyfill",
+                    "package": "bower-asset/objectfitpolyfill"
+                },
+                {
+                    "name": "chartjs",
+                    "package": "bower-asset/chartjs"
+                },
+                {
+                    "name": "c3",
+                    "package": "bower-asset/c3"
+                },
+                {
+                    "name": "d3",
+                    "package": "bower-asset/d3"
+                },
+                {
+                    "name": "dropzone",
+                    "package": "npm-asset/dropzone"
+                },
+                {
+                    "name": "blazy",
+                    "package": "npm-asset/blazy"
+                },
+                {
+                    "name": "slick",
+                    "package": "npm-asset/slick-carousel"
+                },
+                {
+                    "name": "ace",
+                    "package": "npm-asset/ace-builds"
+                },
+                {
+                    "name": "jquery-ui-touch-punch",
+                    "package": "bower-asset/jqueryui-touch-punch"
+                },
+                {
+                    "name": "imagesloaded",
+                    "package": "npm-asset/imagesloaded"
+                },
+                {
+                    "name": "swagger-ui",
+                    "package": "npm-asset/swagger-ui-dist"
+                }
+            ]
+        },
+        "enable-patching": true,
+        "composer-exit-on-patch-failure": true,
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "patches": []
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Varbase\\composer\\ScriptHandler::createRequiredFiles",
+            "Varbase\\composer\\ScriptHandler::removeGitDirectories"
+        ],
+        "post-update-cmd": [
+            "Varbase\\composer\\ScriptHandler::createRequiredFiles",
+            "Varbase\\composer\\ScriptHandler::removeGitDirectories"
+        ],
+        "post-drupal-scaffold-cmd": [
+            "Varbase\\composer\\ScriptHandler::postDrupalScaffoldProcedure"
+        ]
+    },
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "authors": [
+        {
+            "name": "Vardot",
+            "homepage": "https://github.com/vardot",
+            "role": "Maintainer"
+        }
+    ],
+    "description": "Project template for Varbase distribution.",
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "assets": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        "packagist.org": {
+            "type": "composer",
+            "url": "https://repo.packagist.org"
+        }
+    },
+    "support": {
+        "issues": "http://drupal.org/project/issues/varbase",
+        "source": "http://cgit.drupalcode.org/varbase"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "oomphinc/composer-installers-extender": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true,
+            "vardot/varbase-updater": true
+        }
+    }
+}
